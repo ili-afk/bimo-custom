@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Models / big files (downloaded by setup.sh)
+whisper.cpp/
+piper/
+voices/
+*.onnx
+*.bin
+
+# Runtime
+chat_memory.json
+*.log
